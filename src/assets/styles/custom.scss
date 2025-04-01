@@ -1,0 +1,28 @@
+/*
+ ** This file contains the shared MyUse library styles
+ ** Please add your custom styles to custom.scss instead
+
+ ** Font-size baseline 18px
+ ** -------
+ ** 100px = 5.556rem
+ ** 40px = 2.222rem
+ ** 26px = 1.444rem
+ ** 24px = 1.333rem
+ ** 22px = 1.222rem
+ ** 20px = 1.111rem
+ ** 18px = 1rem
+ ** 16px = 0.8889rem
+ ** 14px = 0.7778rem
+ */
+
+ .fade-enter-active {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
